@@ -1,0 +1,12 @@
+# 文本文件统一按 LF 入库，二进制资源不做转换
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary

@@ -1,0 +1,55 @@
+# 第三方来源与许可汇总
+
+本仓库收录 36 个由上游开源仓库转换整理的技能（**均非原创**，按各自许可条款分发），
+另含 1 个**本项目自研**的原创技能（`github-skill-porter`，随仓库级 Apache-2.0 授权）。
+转换技能版权归各上游作者所有；每个技能目录内另附其自身的 `THIRD-PARTY-NOTICES.md` 与 `LICENSE` 全文。
+
+| # | 技能（slug） | 名称 | 上游来源 | SPDX |
+|---|---|---|---|---|
+| 1 | `agent-browser` | Agent 浏览器自动化 | `kacperkapusciak/goldie/.agents/skills/agent-browser` | MIT |
+| 2 | `ai-visibility` | Ai Visibility | `_staged-ai-visibility` | MIT |
+| 3 | `algorithmic-art` | Algorithmic Art | `anthropics/skills/skills/algorithmic-art` | Apache-2.0 |
+| 4 | `backlink-check` | Backlink Check | `_staged-backlink-check` | MIT |
+| 5 | `brand-guidelines` | Brand Guidelines | `anthropics/skills/skills/brand-guidelines` | Apache-2.0 |
+| 6 | `catalog-listings` | 商品信息与上架文案 | `anthropics/commerce-agents/merchant-agent/skills/catalog-listings` | Apache-2.0 |
+| 7 | `commerce-architecture` | Commerce 智能体架构 | `anthropics/commerce-agents/plugins/commerce-builder/skills/commerce-architecture` | Apache-2.0 |
+| 8 | `commerce-evals` | 商务智能体行为评测 | `anthropics/commerce-agents/plugins/commerce-builder/skills/commerce-evals` | Apache-2.0 |
+| 9 | `commerce-merchant-operations` | 商家侧运营智能体 | `anthropics/commerce-agents/plugins/commerce-builder/skills/commerce-merchant-operations` | Apache-2.0 |
+| 10 | `commerce-prompt-caching` | 提示词缓存架构（商务智能体参考实现） | `anthropics/commerce-agents/plugins/commerce-builder/skills/commerce-prompt-caching` | Apache-2.0 |
+| 11 | `commerce-trust-safety` | 信任与安全规则（代码层） | `anthropics/commerce-agents/plugins/commerce-builder/skills/commerce-trust-safety` | Apache-2.0 |
+| 12 | `commerce-ui-tools` | 呈现工具与前端契约 | `anthropics/commerce-agents/plugins/commerce-builder/skills/commerce-ui-tools` | Apache-2.0 |
+| 13 | `competitor-gap` | Competitor Gap | `_staged-competitor-gap` | MIT |
+| 14 | `content-brief` | Content Brief | `_staged-content-brief` | MIT |
+| 15 | `customer-care` | 售后客服 | `anthropics/commerce-agents/shopping-agent/skills/customer-care` | Apache-2.0 |
+| 16 | `discernment-nudge` | Discernment Nudge | `anthropics/skills/skills/discernment-nudge` | Apache-2.0 |
+| 17 | `frontend-design` | 前端视觉设计 | `anthropics/skills/skills/frontend-design` | Apache-2.0 |
+| 18 | `goldie` | Goldie | `kacperkapusciak/goldie/skills/goldie` | MIT |
+| 19 | `internal-comms` | Internal Comms | `anthropics/skills/skills/internal-comms` | Apache-2.0 |
+| 20 | `inventory-operations` | 库存与运营 | `anthropics/commerce-agents/merchant-agent/skills/inventory-operations` | Apache-2.0 |
+| 21 | `jev-skill` | Jev Skill | `aiwithenoch/Jev-Skill` | MIT |
+| 22 | `keyword-research` | Keyword Research | `_staged-keyword-research` | MIT |
+| 23 | `marketing-campaigns` | 营销与活动 | `anthropics/commerce-agents/merchant-agent/skills/marketing-campaigns` | Apache-2.0 |
+| 24 | `memory-personalization` | 记忆与个性化 | `anthropics/commerce-agents/shopping-agent/skills/memory-personalization` | Apache-2.0 |
+| 25 | `performance-insights` | 业绩洞察 | `anthropics/commerce-agents/merchant-agent/skills/performance-insights` | Apache-2.0 |
+| 26 | `planning-goals` | 目标规划 | `anthropics/commerce-agents/shopping-agent/skills/planning-goals` | Apache-2.0 |
+| 27 | `plus-astra-orchestrator` | Plus Astra Orchestrator | `donvito/codex-astra-luna-orchestrator/profiles/plus/agents/skills/astra-orchestrator` | Apache-2.0 |
+| 28 | `pricing-promotions` | 定价与促销 | `anthropics/commerce-agents/merchant-agent/skills/pricing-promotions` | Apache-2.0 |
+| 29 | `pro-astra-orchestrator` | Pro Astra Orchestrator | `donvito/codex-astra-luna-orchestrator/profiles/pro/agents/skills/astra-orchestrator` | Apache-2.0 |
+| 30 | `purchase-research` | 选购调研 | `anthropics/commerce-agents/shopping-agent/skills/purchase-research` | Apache-2.0 |
+| 31 | `rank-tracking` | Rank Tracking | `_staged-rank-tracking` | MIT |
+| 32 | `search-discovery` | 选购检索与推荐 | `anthropics/commerce-agents/shopping-agent/skills/search-discovery` | Apache-2.0 |
+| 33 | `seo-audit` | Seo Audit | `_staged-seo-audit` | MIT |
+| 34 | `seo-vs-ads` | Seo Vs Ads | `_staged-seo-vs-ads` | MIT |
+| 35 | `theme-factory` | 主题工厂 | `anthropics/skills/skills/theme-factory` | Apache-2.0 |
+| 36 | `video-transcribe` | 转录 | `_staged-src` | Apache-2.0 |
+| 37 | `github-skill-porter` | GitHub技能搬运工 | `本项目自研（原创）` | Apache-2.0 |
+
+## 义务履行说明
+
+- **Apache-2.0 第 4(a) 条**（分发须附许可副本）：每个技能目录内随附 `LICENSE` 全文。
+- **Apache-2.0 第 4(b) 条**（修改过的文件须带显著变更声明）：
+  每个 `SKILL.md` 正文顶部均有「改动声明」，说明该文件相对上游原作已作修改。
+- **Apache-2.0 第 4(c) 条**（保留版权、专利、商标与归属声明）：
+  `THIRD-PARTY-NOTICES.md` 记录上游来源与 SPDX 标识；MIT 项的著作权人署名保留在其 `LICENSE` 中。
+- **Apache-2.0 第 4(d) 条**（源含 NOTICE 则须附）：经核，四个上游仓库均**无** `NOTICE` 文件，本项不适用。
+- 本仓库不包含任何 API Key、令牌或其他凭据。
